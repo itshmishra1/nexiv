@@ -1,5 +1,15 @@
 <div align="center">
 
+![Status](https://img.shields.io/badge/Status-Under%20Active%20Development-orange?style=for-the-badge&logo=github)
+![Codebase](https://img.shields.io/badge/Codebase-Uploading%20Soon-blue?style=for-the-badge&logo=git)
+
+> ⚠️ **This repository is currently being structured for open-source release.**
+> Full source code — smart contracts, backend, frontend, and analytics — will be pushed shortly.
+> Star the repo to get notified. 🌟
+
+</div>
+<div align="center">
+
 <!-- Animated Title -->
 <img src="logo.png" width="500" />
 <br/>
