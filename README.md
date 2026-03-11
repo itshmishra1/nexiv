@@ -254,33 +254,11 @@ cd frontend && npm start
 
 ---
 
-## 🗺️ Roadmap
-
-```
-✅ Phase 1 — MVP (March 2026)
-   Smart contract · REST APIs · React frontend · Admin panel · Working E2E demo
-
-🔄 Phase 2 — Hacknovate (2 Weeks)
-   Sepolia live deploy · Face biometric · Next.js civic UI · Real-time analytics · Docker
-
-⏳ Phase 3 — Pilot (3 Months)
-   Aadhar OTP via UIDAI · AI demographics v1 · College/municipal pilot · ECI engagement
-
-⏳ Phase 4 — State Level (6 Months)
-   Zero-Knowledge Proofs · Polygon mainnet · 22 Indian languages · Bug bounty ₹10L
-
-⏳ Phase 5 — National (12 Months)
-   968M voter scale · HSM keys · ECI certification · International expansion
-```
-
----
-
 ## 👥 Team
 
 | Name | Role |
 |---|---|
-| **Himanshu Mishra** | Blockchain Lead & Full Stack Architect |
-| **Mukesh** | Backend Lead — NestJS & Database |
+| **Himanshu Mishra** | Blockchain Lead & Full Stack Architect | Backend Lead — NestJS & Database |
 | **Kirti** | Frontend Lead — Next.js & UX |
 | **Divyanshu Rawat** | Product Lead — DevOps & Documentation |
 
