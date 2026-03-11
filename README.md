@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Title -->
-<img src="logo.png" width="600" />
+<img src="logo.png" width="500" />
 <br/>
 
 **Next-Generation Electoral Experience Infrastructure & Voting**
