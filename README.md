@@ -253,16 +253,6 @@ cd frontend && npm start
 
 ---
 
-## 👥 Team
-
-| Name | Role |
-|---|---|
-| **Himanshu Mishra** | Blockchain Lead & Full Stack Architect + Backend Lead — NestJS & Database |
-| **Kirti** | Frontend Lead — Next.js & UX |
-| **Divyanshu Rawat** | Product Lead — DevOps & Documentation |
-
----
-
 ## 📚 References
 
 - [Ethereum Whitepaper](https://ethereum.org/en/whitepaper/) — Vitalik Buterin, 2013
