@@ -1,8 +1,7 @@
 <div align="center">
 
 <!-- Animated Title -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&duration=3000&pause=1000&color=2563EB&center=true&vCenter=true&width=600&height=80&lines=NEXIV; Next-Gen+Electoral+Platform;Blockchain+%2B+Democracy" alt="NEXIV Typing SVG" />
-
+<img src="logo.png" width="250" />
 <br/>
 
 **Next-Generation Electoral Experience Infrastructure & Voting**
