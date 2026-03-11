@@ -257,7 +257,7 @@ cd frontend && npm start
 
 | Name | Role |
 |---|---|
-| **Himanshu Mishra** | Blockchain Lead & Full Stack Architect | Backend Lead — NestJS & Database |
+| **Himanshu Mishra** | Blockchain Lead & Full Stack Architect + Backend Lead — NestJS & Database |
 | **Kirti** | Frontend Lead — Next.js & UX |
 | **Divyanshu Rawat** | Product Lead — DevOps & Documentation |
 
