@@ -1,357 +1,316 @@
-# nexiv
-Securing democracy through cryptographic vote verification, immutable audit trails, and zero-knowledge biometric auth.
-Here is the complete NEXIV directory structure
+<div align="center">
+
+<!-- Animated Title -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&duration=3000&pause=1000&color=2563EB&center=true&vCenter=true&width=600&height=80&lines=NEXIV;Next-Gen+Electoral+Platform;Blockchain+%2B+Democracy" alt="NEXIV Typing SVG" />
+
+<br/>
+
+**Next-Generation Electoral Experience Infrastructure & Voting**
+
+*Securing democracy through mathematics, not institutional faith.*
+
+<br/>
+
+[![Blockchain](https://img.shields.io/badge/Blockchain-Ethereum%20%2F%20Polygon-orange?style=for-the-badge&logo=ethereum)](https://polygon.technology)
+[![Frontend](https://img.shields.io/badge/Frontend-Next.js%2014-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
+[![Backend](https://img.shields.io/badge/Backend-NestJS-red?style=for-the-badge&logo=nestjs)](https://nestjs.com)
+[![Database](https://img.shields.io/badge/Database-PostgreSQL-blue?style=for-the-badge&logo=postgresql)](https://postgresql.org)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Active%20Development-brightgreen?style=for-the-badge)]()
+
+<br/>
+
+> **"We didn't build a voting app. We built cryptographic proof that every Indian vote counts —**
+> **permanently, transparently, and beyond the reach of any authority to alter."**
+
+<br/>
+
+---
+
+</div>
+
+## 🗳️ What is NEXIV?
+
+NEXIV is India's first **enterprise-grade, AI-augmented, blockchain-powered civic voting platform** that transforms every vote into a cryptographically verifiable, permanently immutable, publicly auditable transaction on the Ethereum blockchain.
+
+Every vote cast on NEXIV generates a **unique transaction hash** — a cryptographic receipt verifiable by any citizen, on any device, at any time, on any public Ethereum block explorer. No trust in NEXIV required. No trust in any government required. **Mathematical proof replaces institutional faith.**
+
+<div align="center">
+
+```
+Citizen → Biometric Auth → Blockchain Transaction → Immutable Storage → Receipt → Live Dashboard
+```
+
+</div>
+
+---
+
+## ⚡ The Problem We're Solving
+
+India conducts elections for **900+ million voters** across **1 million+ polling booths** — yet:
+
+| Problem | Reality |
+|---|---|
+| 🔓 No Vote Proof | EVMs have zero cryptographic receipt. Your vote disappears into a black box. |
+| 👁️ Zero Transparency | Centralized counting with no independent audit capability. |
+| 🚫 252M Excluded | Disabled, migrant, and remote voters structurally denied their franchise. |
+| 📊 No Intelligence | ₹10,000 crore per election cycle. Zero real-time civic data generated. |
+| ⚠️ No Audit Trail | Legal challenges take years. Insufficient digital evidence exists. |
+
+> **2024 General Election: 642 million votes. 44 days. 1% fraud = 6.4 million manipulated outcomes.**
+
+---
+
+## 🔑 Six Reasons No Competing System Comes Close
+
+<details>
+<summary><b>🔐 USP 1 — Cryptographic Vote Sovereignty</b></summary>
+<br/>
+Every vote generates a unique blockchain transaction hash. Citizens verify their vote on Etherscan — no trust in NEXIV required. Mathematically provable democracy — the first of its kind in India.
+</details>
+
+<details>
+<summary><b>⛽ USP 2 — Gasless Civic Participation</b></summary>
+<br/>
+Zero cryptocurrency knowledge. Zero wallet. Zero fees for voters. NEXIV's admin wallet absorbs all blockchain costs — delivering Web3 security with Web2 simplicity. India's 900 million voters need only a phone.
+</details>
+
+<details>
+<summary><b>🧬 USP 3 — Biometric Privacy by Architecture</b></summary>
+<br/>
+Facial recognition runs entirely in the voter's browser via face-api.js. Biometric data is never transmitted to any server. Privacy enforced by physics, not policy.
+</details>
+
+<details>
+<summary><b>🤖 USP 4 — AI Civic Intelligence Engine</b></summary>
+<br/>
+Real-time demographic segmentation — Youth, Women, Farmers, Business, Senior Citizens. Predictive turnout modeling per constituency. Anomaly detection for suspicious voting patterns. Election Commission-grade oversight for the first time.
+</details>
+
+<details>
+<summary><b>📋 USP 5 — Immutable Audit Trail</b></summary>
+<br/>
+Every system action logged with blockchain anchor hash. No operator — including NEXIV itself — can modify or suppress audit records. Court-admissible digital evidence by design.
+</details>
+
+<details>
+<summary><b>✅ USP 6 — Double Vote: Mathematically Impossible</b></summary>
+<br/>
+Smart contract's <code>hasVoted</code> mapping enforces one-vote-per-address at protocol level. Even a full insider conspiracy cannot produce a second vote for the same citizen. Trustless democracy.
+</details>
+
+---
+
+## 🏗️ Architecture
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                        NEXIV PLATFORM                        │
+├───────────────┬───────────────┬──────────────┬──────────────┤
+│   IDENTITY    │    VOTING     │  ANALYTICS   │    AUDIT     │
+│               │               │              │              │
+│  Aadhar OTP   │  Next.js UI   │  Python      │  Blockchain  │
+│  Face Biom.   │  NestJS API   │  FastAPI     │  Anchor Log  │
+│  JWT + RBAC   │  Solidity SC  │  Scikit-learn│  Cloudflare  │
+│  face-api.js  │  Ethers.js    │  Bull Queue  │  WAF + DDoS  │
+└───────────────┴───────────────┴──────────────┴──────────────┘
+                         │
+                         ▼
+              ┌─────────────────────┐
+              │   POLYGON MAINNET   │
+              │  Immutable Vote DB  │
+              │   65,000 TPS        │
+              │   <₹0.01 / vote     │
+              └─────────────────────┘
+```
+
+---
+
+## 🛠️ Tech Stack
+
+### Blockchain
+![Solidity](https://img.shields.io/badge/Solidity-0.8.28-363636?style=flat-square&logo=solidity)
+![Hardhat](https://img.shields.io/badge/Hardhat-2.22.17-yellow?style=flat-square)
+![Ethers.js](https://img.shields.io/badge/Ethers.js-6.x-purple?style=flat-square)
+![Polygon](https://img.shields.io/badge/Polygon-PoS%20Mainnet-8247E5?style=flat-square&logo=polygon)
+
+### Frontend
+![Next.js](https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=flat-square&logo=typescript)
+![Tailwind](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=flat-square&logo=tailwind-css)
+![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-latest-black?style=flat-square)
+![face-api.js](https://img.shields.io/badge/face--api.js-biometric-ff6b6b?style=flat-square)
+
+### Backend
+![NestJS](https://img.shields.io/badge/NestJS-10.x-E0234E?style=flat-square&logo=nestjs)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-336791?style=flat-square&logo=postgresql)
+![Prisma](https://img.shields.io/badge/Prisma-ORM-2D3748?style=flat-square&logo=prisma)
+![Redis](https://img.shields.io/badge/Redis-7.x-DC382D?style=flat-square&logo=redis)
+![Socket.io](https://img.shields.io/badge/Socket.io-realtime-010101?style=flat-square&logo=socket.io)
+
+### DevOps & Security
+![Docker](https://img.shields.io/badge/Docker-containerized-2496ED?style=flat-square&logo=docker)
+![GitHub Actions](https://img.shields.io/badge/GitHub-Actions-2088FF?style=flat-square&logo=github-actions)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-WAF%20%2B%20DDoS-F38020?style=flat-square&logo=cloudflare)
+![Vercel](https://img.shields.io/badge/Vercel-Edge-black?style=flat-square&logo=vercel)
+
+---
+
+## 📁 Project Structure
+
+```
 nexiv/
-├── .github/
-│   └── workflows/
-│       ├── ci.yml                          # Run tests on every PR
-│       ├── deploy-staging.yml              # Auto deploy to Railway/Vercel on merge to dev
-│       └── deploy-production.yml           # Deploy to AWS/Vercel on merge to main
-│
-├── docker-compose.yml                      # Local full-stack orchestration
-├── docker-compose.staging.yml
-├── .env.example                            # Template for all env vars
-├── README.md
-│
-├── blockchain/                             # ── BLOCKCHAIN LAYER ──────────────────────
+├── blockchain/                  # Solidity contracts + Hardhat
 │   ├── contracts/
-│   │   ├── VotingContract.sol              # Core voting logic
-│   │   ├── interfaces/
-│   │   │   └── IVotingContract.sol         # Contract interface for external integrations
-│   │   └── libraries/
-│   │       └── VotingLib.sol               # Shared structs and helpers
+│   │   └── VotingContract.sol   # Core voting smart contract
 │   ├── scripts/
-│   │   ├── deploy.js                       # Hardhat deploy script
-│   │   ├── verify.js                       # Etherscan verification
-│   │   └── seed.js                         # Seed test election + candidates
-│   ├── test/
-│   │   ├── VotingContract.test.js          # Unit tests for all contract functions
-│   │   └── gasless.test.js                 # Gasless transaction flow tests
-│   ├── artifacts/                          # Auto-generated by Hardhat (gitignored)
-│   ├── cache/                              # Hardhat cache (gitignored)
-│   ├── hardhat.config.js
-│   └── package.json
+│   │   └── deploy.js            # Deployment script
+│   └── hardhat.config.js
 │
-├── backend/                                # ── BACKEND — NestJS Clean Architecture ───
-│   ├── src/
-│   │   │
-│   │   ├── main.ts                         # NestJS bootstrap, Swagger, CORS, Helmet
-│   │   ├── app.module.ts                   # Root module wiring all domains
-│   │   │
-│   │   ├── domain/                         # ── DOMAIN LAYER (pure business logic) ───
-│   │   │   │                               # No frameworks. No DB. No HTTP. Pure logic.
-│   │   │   │
-│   │   │   ├── voter/
-│   │   │   │   ├── entities/
-│   │   │   │   │   └── voter.entity.ts     # Voter domain entity (id, aadharHash, segment…)
-│   │   │   │   ├── value-objects/
-│   │   │   │   │   ├── aadhar-hash.vo.ts   # Validated SHA-256 hash value object
-│   │   │   │   │   └── voter-segment.vo.ts # Enum: YOUTH / WOMEN / AGRICULTURE / BUSINESS / SENIOR
-│   │   │   │   ├── repositories/
-│   │   │   │   │   └── voter.repository.ts # Abstract interface — implemented in infra layer
-│   │   │   │   └── events/
-│   │   │   │       └── voter-registered.event.ts
-│   │   │   │
-│   │   │   ├── election/
-│   │   │   │   ├── entities/
-│   │   │   │   │   ├── election.entity.ts  # Election lifecycle entity
-│   │   │   │   │   └── candidate.entity.ts # Candidate with party, symbol, blockchainId
-│   │   │   │   ├── value-objects/
-│   │   │   │   │   └── election-status.vo.ts # DRAFT / ACTIVE / ENDED
-│   │   │   │   ├── repositories/
-│   │   │   │   │   ├── election.repository.ts
-│   │   │   │   │   └── candidate.repository.ts
-│   │   │   │   └── events/
-│   │   │   │       ├── election-started.event.ts
-│   │   │   │       └── election-ended.event.ts
-│   │   │   │
-│   │   │   ├── vote/
-│   │   │   │   ├── entities/
-│   │   │   │   │   └── vote.entity.ts      # vote_id, voter_id, txHash, blockNumber, timestamp
-│   │   │   │   ├── repositories/
-│   │   │   │   │   └── vote.repository.ts
-│   │   │   │   └── events/
-│   │   │   │       └── vote-cast.event.ts
-│   │   │   │
-│   │   │   └── audit/
-│   │   │       ├── entities/
-│   │   │       │   └── audit-log.entity.ts # action, actorId, ipAddress, blockchainAnchorHash
-│   │   │       └── repositories/
-│   │   │           └── audit-log.repository.ts
-│   │   │
-│   │   ├── application/                    # ── APPLICATION LAYER (use cases) ─────────
-│   │   │   │                               # Orchestrates domain + calls infra via interfaces
-│   │   │   │
-│   │   │   ├── auth/
-│   │   │   │   ├── commands/
-│   │   │   │   │   ├── register-voter.command.ts
-│   │   │   │   │   ├── register-voter.handler.ts
-│   │   │   │   │   ├── login.command.ts
-│   │   │   │   │   ├── login.handler.ts
-│   │   │   │   │   └── verify-face.handler.ts
-│   │   │   │   └── queries/
-│   │   │   │       └── get-voter-profile.handler.ts
-│   │   │   │
-│   │   │   ├── election/
-│   │   │   │   ├── commands/
-│   │   │   │   │   ├── create-election.command.ts
-│   │   │   │   │   ├── create-election.handler.ts
-│   │   │   │   │   ├── start-election.command.ts
-│   │   │   │   │   ├── start-election.handler.ts   # Calls blockchain service
-│   │   │   │   │   ├── end-election.command.ts
-│   │   │   │   │   └── end-election.handler.ts
-│   │   │   │   └── queries/
-│   │   │   │       ├── get-active-election.handler.ts
-│   │   │   │       └── list-elections.handler.ts
-│   │   │   │
-│   │   │   ├── vote/
-│   │   │   │   ├── commands/
-│   │   │   │   │   ├── cast-vote.command.ts
-│   │   │   │   │   └── cast-vote.handler.ts        # Core: validates → blockchain tx → receipt
-│   │   │   │   └── queries/
-│   │   │   │       ├── get-results.handler.ts
-│   │   │   │       ├── get-receipt.handler.ts
-│   │   │   │       └── verify-transaction.handler.ts
-│   │   │   │
-│   │   │   └── analytics/
-│   │   │       └── queries/
-│   │   │           ├── get-turnout.handler.ts
-│   │   │           ├── get-demographics.handler.ts
-│   │   │           ├── get-prediction.handler.ts
-│   │   │           └── get-anomalies.handler.ts
-│   │   │
-│   │   ├── infrastructure/                 # ── INFRASTRUCTURE LAYER ───────────────────
-│   │   │   │                               # Implements domain interfaces. Talks to DB, blockchain, Redis
-│   │   │   │
-│   │   │   ├── database/
-│   │   │   │   ├── prisma/
-│   │   │   │   │   ├── schema.prisma       # All models: Voter, Election, Candidate, Vote, AuditLog
-│   │   │   │   │   └── migrations/         # Auto-generated migration history
-│   │   │   │   ├── repositories/
-│   │   │   │   │   ├── voter.prisma.repository.ts
-│   │   │   │   │   ├── election.prisma.repository.ts
-│   │   │   │   │   ├── candidate.prisma.repository.ts
-│   │   │   │   │   ├── vote.prisma.repository.ts
-│   │   │   │   │   └── audit-log.prisma.repository.ts
-│   │   │   │   └── database.module.ts
-│   │   │   │
-│   │   │   ├── blockchain/
-│   │   │   │   ├── blockchain.service.ts   # Ethers.js wrapper — castVote, startElection, etc.
-│   │   │   │   ├── gasless.service.ts      # Admin wallet signs on behalf of voter
-│   │   │   │   ├── contract-abi.ts         # ABI inline (avoids path issues)
-│   │   │   │   └── blockchain.module.ts
-│   │   │   │
-│   │   │   ├── cache/
-│   │   │   │   ├── redis.service.ts        # Session store, rate limiter, token blocklist
-│   │   │   │   └── cache.module.ts
-│   │   │   │
-│   │   │   ├── queue/
-│   │   │   │   ├── analytics.queue.ts      # Bull queue for async analytics jobs
-│   │   │   │   ├── notification.queue.ts   # Email/SMS receipt dispatch
-│   │   │   │   └── queue.module.ts
-│   │   │   │
-│   │   │   └── analytics-client/
-│   │   │       ├── analytics-http.service.ts  # HTTP client to Python FastAPI microservice
-│   │   │       └── analytics-client.module.ts
-│   │   │
-│   │   └── interfaces/                     # ── INTERFACE LAYER (HTTP / WebSocket) ─────
-│   │       │                               # Controllers, DTOs, Guards, Interceptors
-│   │       │
-│   │       ├── http/
-│   │       │   ├── auth/
-│   │       │   │   ├── auth.controller.ts
-│   │       │   │   ├── dto/
-│   │       │   │   │   ├── register.dto.ts
-│   │       │   │   │   ├── login.dto.ts
-│   │       │   │   │   └── verify-face.dto.ts
-│   │       │   │   └── auth.module.ts
-│   │       │   │
-│   │       │   ├── election/
-│   │       │   │   ├── election.controller.ts
-│   │       │   │   ├── dto/
-│   │       │   │   │   ├── create-election.dto.ts
-│   │       │   │   │   └── election-response.dto.ts
-│   │       │   │   └── election.module.ts
-│   │       │   │
-│   │       │   ├── vote/
-│   │       │   │   ├── vote.controller.ts
-│   │       │   │   ├── dto/
-│   │       │   │   │   ├── cast-vote.dto.ts
-│   │       │   │   │   └── vote-receipt.dto.ts
-│   │       │   │   └── vote.module.ts
-│   │       │   │
-│   │       │   └── analytics/
-│   │       │       ├── analytics.controller.ts
-│   │       │       └── analytics.module.ts
-│   │       │
-│   │       ├── websocket/
-│   │       │   ├── results.gateway.ts      # Socket.io gateway — broadcasts live vote counts
-│   │       │   └── websocket.module.ts
-│   │       │
-│   │       └── common/
-│   │           ├── guards/
-│   │           │   ├── jwt-auth.guard.ts
-│   │           │   └── roles.guard.ts      # VOTER / OBSERVER / ELECTION_OFFICER / SUPER_ADMIN
-│   │           ├── interceptors/
-│   │           │   ├── logging.interceptor.ts
-│   │           │   └── audit.interceptor.ts  # Auto-writes audit log on every state-change request
-│   │           ├── filters/
-│   │           │   └── all-exceptions.filter.ts
-│   │           ├── decorators/
-│   │           │   └── roles.decorator.ts
-│   │           └── middleware/
-│   │               ├── rate-limit.middleware.ts
-│   │               └── device-fingerprint.middleware.ts
-│   │
-│   ├── test/
-│   │   ├── unit/
-│   │   │   ├── cast-vote.handler.spec.ts
-│   │   │   └── register-voter.handler.spec.ts
-│   │   ├── integration/
-│   │   │   ├── vote.controller.spec.ts
-│   │   │   └── auth.controller.spec.ts
-│   │   └── e2e/
-│   │       └── full-voting-flow.e2e.spec.ts  # Register → Login → Vote → Receipt
-│   │
-│   ├── Dockerfile
-│   ├── .env.example
-│   ├── nest-cli.json
-│   ├── tsconfig.json
-│   └── package.json
+├── backend/                     # NestJS — Clean Architecture
+│   └── src/
+│       ├── domain/              # Entities, Value Objects, Repository Interfaces
+│       ├── application/         # Use Case Handlers (cast-vote, register, etc.)
+│       ├── infrastructure/      # Prisma, Redis, Blockchain, Queue
+│       └── interfaces/          # Controllers, DTOs, Guards, WebSocket
 │
-├── frontend/                               # ── FRONTEND — Next.js 14 ──────────────────
-│   ├── src/
-│   │   ├── app/                            # Next.js App Router
-│   │   │   ├── layout.tsx                  # Root layout, global fonts, providers
-│   │   │   ├── page.tsx                    # Landing / redirect to /vote or /login
-│   │   │   │
-│   │   │   ├── (auth)/
-│   │   │   │   ├── login/
-│   │   │   │   │   └── page.tsx            # Login page — JWT auth
-│   │   │   │   └── register/
-│   │   │   │       └── page.tsx            # Register page — Aadhar hash + password
-│   │   │   │
-│   │   │   ├── (voter)/
-│   │   │   │   ├── verify/
-│   │   │   │   │   └── page.tsx            # Face biometric verification screen
-│   │   │   │   ├── vote/
-│   │   │   │   │   └── page.tsx            # Ballot — candidates, cast vote button
-│   │   │   │   └── receipt/
-│   │   │   │       └── page.tsx            # Transaction hash, QR code, Etherscan link
-│   │   │   │
-│   │   │   ├── results/
-│   │   │   │   └── page.tsx                # Live bar chart results (public)
-│   │   │   │
-│   │   │   └── admin/
-│   │   │       ├── layout.tsx              # Admin shell with sidebar nav
-│   │   │       ├── page.tsx                # Civic Intelligence Dashboard
-│   │   │       ├── elections/
-│   │   │       │   ├── page.tsx            # List + create elections
-│   │   │       │   └── [id]/
-│   │   │       │       └── page.tsx        # Election detail — start/end controls
-│   │   │       ├── analytics/
-│   │   │       │   └── page.tsx            # Turnout, demographics, predictions, anomalies
-│   │   │       └── audit/
-│   │   │           └── page.tsx            # Full audit log with blockchain anchor hash
-│   │   │
-│   │   ├── components/
-│   │   │   ├── ui/                         # shadcn/ui primitives (Button, Card, Dialog…)
-│   │   │   ├── ballot/
-│   │   │   │   ├── CandidateCard.tsx
-│   │   │   │   └── BallotForm.tsx
-│   │   │   ├── biometric/
-│   │   │   │   └── FaceVerify.tsx          # face-api.js camera component
-│   │   │   ├── receipt/
-│   │   │   │   ├── ReceiptCard.tsx
-│   │   │   │   └── QRCode.tsx
-│   │   │   ├── results/
-│   │   │   │   ├── LiveBarChart.tsx        # Chart.js / Recharts
-│   │   │   │   └── ResultsTable.tsx
-│   │   │   ├── admin/
-│   │   │   │   ├── TurnoutMap.tsx
-│   │   │   │   ├── DemographicsChart.tsx
-│   │   │   │   ├── AnomalyAlert.tsx
-│   │   │   │   └── AuditTable.tsx
-│   │   │   └── shared/
-│   │   │       ├── Navbar.tsx
-│   │   │       ├── Sidebar.tsx
-│   │   │       └── LoadingSpinner.tsx
-│   │   │
-│   │   ├── lib/
-│   │   │   ├── api/
-│   │   │   │   ├── auth.api.ts             # Axios calls to /auth endpoints
-│   │   │   │   ├── election.api.ts
-│   │   │   │   ├── vote.api.ts
-│   │   │   │   └── analytics.api.ts
-│   │   │   ├── blockchain/
-│   │   │   │   └── ethers.client.ts        # Ethers.js browser client for receipt verification
-│   │   │   ├── socket/
-│   │   │   │   └── results.socket.ts       # Socket.io client for live result streaming
-│   │   │   └── utils/
-│   │   │       ├── format.ts               # Date, number, hash formatting helpers
-│   │   │       └── cn.ts                   # Tailwind class merge utility
-│   │   │
-│   │   ├── hooks/
-│   │   │   ├── useAuth.ts                  # Auth state, login/logout actions
-│   │   │   ├── useFaceVerify.ts            # face-api.js hook
-│   │   │   ├── useLiveResults.ts           # Socket.io results subscription
-│   │   │   └── useElection.ts              # Active election data fetching
-│   │   │
-│   │   ├── store/
-│   │   │   ├── auth.store.ts               # Zustand store for voter session
-│   │   │   └── election.store.ts           # Active election, selected candidate
-│   │   │
-│   │   └── types/
-│   │       ├── voter.types.ts
-│   │       ├── election.types.ts
-│   │       ├── vote.types.ts
-│   │       └── analytics.types.ts
-│   │
-│   ├── public/
-│   │   └── models/                         # face-api.js model weights (ssdMobilenetv1 etc.)
-│   │
-│   ├── Dockerfile
-│   ├── next.config.ts
-│   ├── tailwind.config.ts
-│   ├── tsconfig.json
-│   └── package.json
+├── frontend/                    # Next.js 14 App Router
+│   └── src/
+│       ├── app/                 # Pages: login, register, vote, receipt, results, admin
+│       ├── components/          # Ballot, Biometric, Receipt, Results, Admin UI
+│       ├── hooks/               # useAuth, useFaceVerify, useLiveResults
+│       └── store/               # Zustand state management
 │
-├── analytics/                              # ── ANALYTICS MICROSERVICE — Python FastAPI ─
-│   ├── app/
-│   │   ├── main.py                         # FastAPI app entry, CORS, router registration
-│   │   ├── routers/
-│   │   │   ├── turnout.py                  # GET /turnout/:electionId
-│   │   │   ├── demographics.py             # GET /demographics/:electionId
-│   │   │   ├── prediction.py               # GET /prediction/:electionId
-│   │   │   └── anomalies.py                # GET /anomalies/:electionId
-│   │   ├── services/
-│   │   │   ├── segmentation.service.py     # Scikit-learn demographic classifier
-│   │   │   ├── prediction.service.py       # Time-series turnout prediction model
-│   │   │   └── anomaly.service.py          # Statistical deviation detector
-│   │   ├── models/
-│   │   │   └── trained/                    # Serialized .pkl model files
-│   │   └── schemas/
-│   │       └── analytics.schema.py         # Pydantic request/response models
-│   ├── tests/
-│   │   └── test_prediction.py
-│   ├── Dockerfile
-│   ├── requirements.txt
-│   └── .env.example
-│
-└── infra/                                  # ── INFRASTRUCTURE & DEVOPS ────────────────
-    ├── docker/
-    │   ├── backend.Dockerfile
-    │   ├── frontend.Dockerfile
-    │   └── analytics.Dockerfile
-    ├── nginx/
-    │   └── nexiv.conf                      # Reverse proxy config for self-hosted deploy
-    ├── k8s/                                # Kubernetes manifests (Phase 4 national scale)
-    │   ├── backend-deployment.yaml
-    │   ├── frontend-deployment.yaml
-    │   ├── analytics-deployment.yaml
-    │   ├── redis-deployment.yaml
-    │   ├── postgres-deployment.yaml
-    │   └── ingress.yaml
-    └── scripts/
-        ├── deploy-staging.sh
-        └── deploy-production.sh
+└── analytics/                   # Python FastAPI microservice
+    └── app/
+        ├── services/            # Demographic segmentation, prediction, anomaly detection
+        └── routers/             # turnout, demographics, prediction, anomalies
+```
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Node.js v18+
+- Git
+- MongoDB / PostgreSQL
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Hmishra20/NEXIV.git
+cd NEXIV
+```
+
+### 2. Install dependencies
+```bash
+# Root
+npm install
+
+# Backend
+cd backend && npm install
+
+# Frontend
+cd ../frontend && npm install
+```
+
+### 3. Configure environment
+Create a `.env` file in the `backend/` folder:
+```env
+MONGO_URI=mongodb://localhost:27017/nexiv
+JWT_SECRET=your_jwt_secret_here
+PORT=5000
+CONTRACT_ADDRESS=0x5FbDB2315678afecb367f032d93F642f64180aa3
+PRIVATE_KEY=your_private_key_here
+```
+
+### 4. Run the project (4 terminals)
+
+```bash
+# Terminal 1 — Local Blockchain
+npx hardhat node
+
+# Terminal 2 — Deploy Contract
+npx hardhat run scripts/deploy.js --network localhost
+
+# Terminal 3 — Backend
+cd backend && node server.js
+
+# Terminal 4 — Frontend
+cd frontend && npm start
+```
+
+---
+
+## 🔐 Security Model
+
+| Layer | Protection |
+|---|---|
+| Identity | Aadhar SHA-256 hash · bcrypt passwords · face-api.js client-side biometric |
+| Application | JWT rotation · Zod validation · NestJS Guards · Rate limiting via Redis |
+| Blockchain | Re-entrancy protection · OpenZeppelin standards · Multi-sig governance |
+| Infrastructure | Cloudflare WAF · TLS 1.3 · DDoS protection · HSM key management (Phase 4) |
+| Audit | Every action blockchain-anchored · Tamper-proof · Court-admissible |
+
+---
+
+## 🗺️ Roadmap
+
+```
+✅ Phase 1 — MVP (March 2026)
+   Smart contract · REST APIs · React frontend · Admin panel · Working E2E demo
+
+🔄 Phase 2 — Hacknovate (2 Weeks)
+   Sepolia live deploy · Face biometric · Next.js civic UI · Real-time analytics · Docker
+
+⏳ Phase 3 — Pilot (3 Months)
+   Aadhar OTP via UIDAI · AI demographics v1 · College/municipal pilot · ECI engagement
+
+⏳ Phase 4 — State Level (6 Months)
+   Zero-Knowledge Proofs · Polygon mainnet · 22 Indian languages · Bug bounty ₹10L
+
+⏳ Phase 5 — National (12 Months)
+   968M voter scale · HSM keys · ECI certification · International expansion
+```
+
+---
+
+## 👥 Team
+
+| Name | Role |
+|---|---|
+| **Himanshu Mishra** | Blockchain Lead & Full Stack Architect |
+| **Mukesh** | Backend Lead — NestJS & Database |
+| **Kirti** | Frontend Lead — Next.js & UX |
+| **Divyanshu Rawat** | Product Lead — DevOps & Documentation |
+
+---
+
+## 📚 References
+
+- [Ethereum Whitepaper](https://ethereum.org/en/whitepaper/) — Vitalik Buterin, 2013
+- [UIDAI Aadhar API Documentation](https://uidai.gov.in) — uidai.gov.in
+- [Election Commission of India](https://eci.gov.in) — ECI Tech Report 2024
+- [MIT Digital Currency Initiative](https://dci.mit.edu) — Blockchain Voting Research, 2020
+- [OpenZeppelin](https://docs.openzeppelin.com) — Smart Contract Security Standards
+- [Hardhat](https://hardhat.org) · [NestJS](https://nestjs.com) · [Polygon](https://polygon.technology) · [Next.js](https://nextjs.org)
+
+---
+
+## 📄 License
+
+MIT License — see [LICENSE](LICENSE) for details.
+
+---
+
+<div align="center">
+
+**Smart Contract:** `[Add after Sepolia deployment]`
+
+**Live Demo:** `[Add after Sepolia deployment]`
+
+<br/>
+
+![Footer](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=4000&pause=1000&color=6B7280&center=true&vCenter=true&width=600&lines=One+Vote.+One+Chain.+Unbreakable+Democracy.;Built+with+%E2%9D%A4%EF%B8%8F+for+968+million+Indian+voters.)
+
+</div>
