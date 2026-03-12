@@ -196,61 +196,6 @@ nexiv/
         └── routers/             # turnout, demographics, prediction, anomalies
 ```
 
----
-
-## 🚀 Quick Start
-
-### Prerequisites
-- Node.js v18+
-- Git
-- MongoDB / PostgreSQL
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/Hmishra20/NEXIV.git
-cd NEXIV
-```
-
-### 2. Install dependencies
-```bash
-# Root
-npm install
-
-# Backend
-cd backend && npm install
-
-# Frontend
-cd ../frontend && npm install
-```
-
-### 3. Configure environment
-Create a `.env` file in the `backend/` folder:
-```env
-MONGO_URI=mongodb://localhost:27017/nexiv
-JWT_SECRET=your_jwt_secret_here
-PORT=5000
-CONTRACT_ADDRESS=0x5FbDB2315678afecb367f032d93F642f64180aa3
-PRIVATE_KEY=your_private_key_here
-```
-
-### 4. Run the project (4 terminals)
-
-```bash
-# Terminal 1 — Local Blockchain
-npx hardhat node
-
-# Terminal 2 — Deploy Contract
-npx hardhat run scripts/deploy.js --network localhost
-
-# Terminal 3 — Backend
-cd backend && node server.js
-
-# Terminal 4 — Frontend
-cd frontend && npm start
-```
-
----
-
 ## 🔐 Security Model
 
 | Layer | Protection |
