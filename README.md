@@ -9,7 +9,6 @@
 
 </div>
 <div align="center">
-
 <!-- Animated Title -->
 <img src="logo.png" width="500" />
 <br/>
